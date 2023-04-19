@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E402C9EA29EEB4190060BA26 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C9E929EEB4180060BA26 /* SideMenuView.swift */; };
+		E402C9EC29EEB4340060BA26 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C9EB29EEB4340060BA26 /* SideMenuHeaderView.swift */; };
+		E402C9EE29EEB4530060BA26 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C9ED29EEB4530060BA26 /* SideMenuOptionView.swift */; };
+		E402C9F029EEB4760060BA26 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402C9EF29EEB4760060BA26 /* SideMenuViewModel.swift */; };
 		E4912D4029E2D2CF00613BA4 /* SwiftUI_Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912D3F29E2D2CF00613BA4 /* SwiftUI_Side_MenuApp.swift */; };
 		E4912D4229E2D2CF00613BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912D4129E2D2CF00613BA4 /* ContentView.swift */; };
 		E4912D4429E2D2D000613BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4912D4329E2D2D000613BA4 /* Assets.xcassets */; };
 		E4912D4729E2D2D000613BA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4912D4629E2D2D000613BA4 /* Preview Assets.xcassets */; };
+		E4912D5029E2D65100613BA4 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912D4F29E2D65000613BA4 /* RedView.swift */; };
+		E4912D5229E2D65E00613BA4 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912D5129E2D65D00613BA4 /* GreenView.swift */; };
+		E4912D5429E2D66700613BA4 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4912D5329E2D66700613BA4 /* BlueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E402C9E929EEB4180060BA26 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		E402C9EB29EEB4340060BA26 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		E402C9ED29EEB4530060BA26 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		E402C9EF29EEB4760060BA26 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		E4912D3C29E2D2CF00613BA4 /* SwiftUI Side Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Side Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4912D3F29E2D2CF00613BA4 /* SwiftUI_Side_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Side_MenuApp.swift; sourceTree = "<group>"; };
 		E4912D4129E2D2CF00613BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4912D4329E2D2D000613BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4912D4629E2D2D000613BA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4912D4F29E2D65000613BA4 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		E4912D5129E2D65D00613BA4 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		E4912D5329E2D66700613BA4 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				E4912D4129E2D2CF00613BA4 /* ContentView.swift */,
 				E4912D4329E2D2D000613BA4 /* Assets.xcassets */,
 				E4912D4529E2D2D000613BA4 /* Preview Content */,
+				E4912D4F29E2D65000613BA4 /* RedView.swift */,
+				E4912D5129E2D65D00613BA4 /* GreenView.swift */,
+				E4912D5329E2D66700613BA4 /* BlueView.swift */,
+				E402C9E929EEB4180060BA26 /* SideMenuView.swift */,
+				E402C9EB29EEB4340060BA26 /* SideMenuHeaderView.swift */,
+				E402C9ED29EEB4530060BA26 /* SideMenuOptionView.swift */,
+				E402C9EF29EEB4760060BA26 /* SideMenuViewModel.swift */,
 			);
 			path = "SwiftUI Side Menu";
 			sourceTree = "<group>";
@@ -83,6 +104,8 @@
 			dependencies = (
 			);
 			name = "SwiftUI Side Menu";
+			packageProductDependencies = (
+			);
 			productName = "SwiftUI Side Menu";
 			productReference = E4912D3C29E2D2CF00613BA4 /* SwiftUI Side Menu.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,8 @@
 				Base,
 			);
 			mainGroup = E4912D3329E2D2CF00613BA4;
+			packageReferences = (
+			);
 			productRefGroup = E4912D3D29E2D2CF00613BA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E402C9EA29EEB4190060BA26 /* SideMenuView.swift in Sources */,
+				E402C9EE29EEB4530060BA26 /* SideMenuOptionView.swift in Sources */,
+				E402C9EC29EEB4340060BA26 /* SideMenuHeaderView.swift in Sources */,
 				E4912D4229E2D2CF00613BA4 /* ContentView.swift in Sources */,
+				E402C9F029EEB4760060BA26 /* SideMenuViewModel.swift in Sources */,
+				E4912D5229E2D65E00613BA4 /* GreenView.swift in Sources */,
+				E4912D5029E2D65100613BA4 /* RedView.swift in Sources */,
+				E4912D5429E2D66700613BA4 /* BlueView.swift in Sources */,
 				E4912D4029E2D2CF00613BA4 /* SwiftUI_Side_MenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
